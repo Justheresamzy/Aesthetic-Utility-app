@@ -143,7 +143,7 @@ print()
 
 
 
-if score > 3:
+if score >= 3:
     print("YOU DID SO WELL!")
 else:
     print("Yay Good job")
