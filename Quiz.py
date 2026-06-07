@@ -2,7 +2,7 @@ print("Flag Quiz")
 print()
 print()
 name = input("What is your name?: ")
-aw = input(f"Are you ready {name} (y/n): ")
+aw = input(f"Are you ready {name} (Y/N): ").lower()
 score = 0
 
 if aw == "n":
@@ -25,7 +25,7 @@ print("A: Saudi Arabia")
 print("B: Oman")
 print("C: UAE")
 
-q1 = input("What is this flag 🇦🇪 : ")
+q1 = input("What is this flag 🇦🇪 : ").lower()
 
 if q1 == "c":
     print("CORRECT! 🥳")
@@ -51,7 +51,7 @@ print("B: Belgium")
 print("C: Russia")
 
 
-q2 = input("What is this flag 🇩🇪:")
+q2 = input("What is this flag 🇩🇪:").lower()
 
 
 if q2 == "a":
@@ -75,7 +75,7 @@ print("A: Ireland")
 print("B: India")
 print("C: France")
 
-q3 = input("What is this flag 🇮🇪:")
+q3 = input("What is this flag 🇮🇪:").lower()
 
 
 if q3 == "a":
@@ -99,7 +99,7 @@ print("A: Pakistan")
 print("B: Algeria")
 print("C: India")
 
-q4 = input("What is this flag 🇩🇿:")
+q4 = input("What is this flag 🇩🇿:").lower()
 
 
 if q4 == "b":
@@ -124,7 +124,7 @@ print("A: Nigeria")
 print("B: Argentina")
 print("C: Somalia")
 
-q5 = input("What is this flag 🇦🇷:")
+q5 = input("What is this flag 🇦🇷:").lower()
 
 
 if q5 == "b":
